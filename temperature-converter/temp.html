@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Temperature_Convertion</title>
+<link rel="stylesheet" href="temp.css">
+</head>
+<body>
+    <div class="container">
+        <h2 style="font-size: 40px;">Temperature Converter</h2>
+        <label style="font-size: 30px;" for="temperature">Enter temperature:</label>
+        <input  style="font-size: 18px;" type="number" id="temperature" placeholder="Temperature"><br>
+        <select style="font-size: 23px; font-family: Script;" id="conversionType">
+            <option value="CelToFah">Celsius to Fahrenheit</option>
+            <option value="FahToCel">Fahrenheit to Celsius</option>
+            <option value="CelToKel">Celsius to Kelvin</option>
+            <option value="KelToCel">Kelvin to Celsius</option>            
+        </select>
+        <button onclick="convert()">Convert</button>
+        <hr>
+        <div id="result"></div>
+        <hr>
+    </div>
+    <script src="temp.js"></script>
+</body>
+  <footer>All Rights Reserved @ 2024</footer>
+</html>
