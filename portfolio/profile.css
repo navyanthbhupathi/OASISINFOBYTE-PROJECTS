@@ -34,7 +34,7 @@ body{
 .class_10th{
     height: 450px;
     width: 600px;
-    background-image: url("vrs.jpg");
+    background-image: url("ekashila.jpg");
     background-size: cover;
     margin: 20px;
     text-align: center; 
@@ -91,17 +91,7 @@ button:hover{
     margin: 10px;
     border-radius: 10px;
 }
-.otherdetails{
-    margin: 15px;
-    font-size: 40px;
-    background-color: #ceb6b6;
-    padding: 10px;
-    border-radius: 10px;
-    font-family: Serif;
-    font-size: 18px;
-    font-weight: bold;
-    width: 70vw;
-}
+
 .contact{
     display: flex;
     justify-content: center;
