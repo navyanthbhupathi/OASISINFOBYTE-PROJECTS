@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    
+}
+.topnav {
+    background-color: #ced87c;
+    overflow: hidden;
+
+  } 
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+    font-size: 25px;
+  }
+
+  .topnav a.lang:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .topnav a.active {
+    background-color: #e32828;
+    color: white;
+  }
+
+  .topnav a.lang {
+    float: right;
+    background-color: #222323;
+    color: white;
+    border-radius: 50px;
+  }
+    .topnav a.welcome {
+        text-align: center;
+        padding-left: 600px;
+        color:black;
+  }
+.homecontiner{
+    background-image: url("https://images.pexels.com/photos/2908984/pexels-photo-2908984.jpeg?auto=compress&cs=tinysrgb&w=600");
+    height: 60vh;
+    display: flex;
+     justify-content: center;
+     align-items: center;
+    color:white;    
+    text-align: center; 
+
+}
+.home_button{
+
+    background-color: rgb(216, 232, 227);
+    color:black;
+}
+.home_button:hover{
+
+    background-color: green;
+    color:whitesmoke;
+}
+.index3{    
+    margin: 10px;   
+    background-color: #f4f3f1; 
+    border-radius: 10px;
+}
+.index3_image{
+    height:250px;
+    width:170px;
+    border-radius: 10px;
+    
+    
+}
+.index3_para{
+    font-size: 18px;
+    text-align: center;
+    background-color: #efe6dc;
+    border-radius: 10px;
+    margin: 5px;
+    font-family: 'Segoe UI';
+    padding: 15px;
+}
+button{
+    background-color: rgb(0, 140, 255);
+    color:white;
+    border-radius: 5px;
+    font-family: robot;
+    font-size: 20px;
+    width: 100px;
+    
+}
+button:hover{
+    background-color: #e32828;
+}
+.bestseller_img{
+    height: 350px;
+    width: 300px;
+}
+.bestseller{
+    background-color: rgb(222, 234, 230);
+    margin: 10px;
+    border-radius: 10px;
+}
+.bestseller_book{
+    margin: 15px;
+    font-size: 15px;
+    background-color: #ddd;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: Serif;
+    font-size: 18px;
+    font-weight: bold;
+  
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
